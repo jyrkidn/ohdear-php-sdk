@@ -70,7 +70,7 @@ trait ManagesCronChecks
 
         return $this->transformCollection(
             $response,
-            CronCheck::class,
+            CronCheck::class
         );
     }
 }

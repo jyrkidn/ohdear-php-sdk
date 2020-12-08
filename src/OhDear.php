@@ -34,9 +34,9 @@ class OhDear
         ManagesCronChecks;
 
     /** @var string */
-    public string $apiToken;
+    public $apiToken;
 
-    public Client $client;
+    public $client;
 
     public function __construct(string $apiToken, string $baseUri = 'https://ohdear.app/api/')
     {
